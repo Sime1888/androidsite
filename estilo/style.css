@@ -32,6 +32,9 @@ body {
 a.externo::after {
     content: '\00A0🔗';
 }
+a.interno::after {
+    content: '\🔗';
+}
 header {
    background-image: linear-gradient(to bottom, var(--cor3), var(--cor5));
     min-height: 150px;
